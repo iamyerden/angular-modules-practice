@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id":  1,
+      "username": "nazym_godness",
+      "gender": "Female",
+      "age": 20,
+      "groupId": "2"
+    },
+    {
+      "id":  2,
+      "username": "adil_chert",
+      "gender": "Male",
+      "age": 20,
+      "groupId": "2"
+    },
+    {
+      "id":  3,
+      "username": "miras_obama",
+      "gender": "Male",
+      "age": 19,
+      "groupId": "3"
+    },
+    {
+      "id":  4,
+      "username": "prosto_alisher",
+      "gender": "Male",
+      "age": 19,
+      "groupId": "1"
+    },
+    {
+      "id":  5,
+      "username": "yerden_black",
+      "gender": "Male",
+      "age": 19,
+      "groupId": "1"
+    }
+  ],
+  "groups": [
+    {
+      "id":  1,
+      "name": "Dank Memes",
+      "description": "Short description 1",
+      "link": "https://vk.com/dank_memes_ayylmao"
+    },
+    {
+      "id":  2,
+      "name": "BDSM",
+      "description": "Short description 2",
+      "link": "https://vk.com/bdsmkaaa"
+    },
+    {
+      "id":  3,
+      "name": "All you need to know to start Revolution",
+      "description": "Short description 3",
+      "link": "https://www.wikihow.com/Start-a-Revolution"
+    }
+  ]
+}

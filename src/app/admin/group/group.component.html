@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Username</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let group of groups; let index = index" class="custom-link">
+        <th scope="row">{{index + 1}}</th>
+        <td>{{group.name}}</td>
+        <td>{{group.description}}</td>
+        <td><a href="{{group.link}}">Go to</a></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

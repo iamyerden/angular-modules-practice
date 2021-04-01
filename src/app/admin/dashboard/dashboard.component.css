@@ -1,0 +1,16 @@
+.card-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  height: 300px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all ease 0.15s;
+}
+
+.card-block:hover {
+  cursor: pointer;
+  background-color: #e9e9e9;
+}
